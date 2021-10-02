@@ -6,7 +6,7 @@ import (
 	"time"
 
 	goredislib "github.com/go-redis/redis/v8"
-	"gotest.tools/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func init() {
